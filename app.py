@@ -175,10 +175,25 @@ def _run() -> None:
     counts: dict[str, int] = {}
     for item in results:
         counts[item["result"]] = counts.get(item["result"], 0) + 1
-    order = [("applies", "Applies"), ("superseded", "Superseded"), ("unknown", "Unknown"),
-             ("not_yet_effective", "Not yet effective"), ("pending", "Pending")]
-    summary = " · ".join(f"**{label}: {counts[key]}**" for key, label in order if counts.get(key))
-    st.markdown(f"{summary}  \n:grey[{len(results)} rules shown. Expand a card to read the quoted source text.]")
+    chips = [
+        ("applies", "Applies", "#166534", "#dcfce7", True),
+        ("unknown", "Unknown", "#475569", "#e2e8f0", True),
+        ("superseded", "Superseded", "#92400e", "#fef3c7", True),
+        ("pending", "Pending", "#1e40af", "#dbeafe", True),
+        ("not_yet_effective", "Not yet effective", "#6b21a8", "#f3e8ff", False),
+    ]
+    chip_html = "".join(
+        f'<span style="display:inline-block;margin:0 8px 8px 0;padding:8px 16px;border-radius:999px;'
+        f'background:{bg};color:{fg};font-weight:700;font-size:1.05rem;">{label}: {counts.get(key, 0)}</span>'
+        for key, label, fg, bg, always in chips
+        if always or counts.get(key)
+    )
+    st.markdown(
+        f'<div style="margin:8px 0 2px 0;">{chip_html}</div>'
+        f'<div style="color:#64748b;font-size:0.9rem;margin-bottom:8px;">{len(results)} rules shown. '
+        f"Expand a card to read the quoted source text.</div>",
+        unsafe_allow_html=True,
+    )
 
     for position, item in enumerate(results):
         status = item["result"].replace("_", " ").title()
