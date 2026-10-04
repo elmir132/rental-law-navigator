@@ -176,24 +176,34 @@ def _run() -> None:
     for item in results:
         counts[item["result"]] = counts.get(item["result"], 0) + 1
     chips = [
-        ("applies", "Applies", "#166534", "#dcfce7", True),
-        ("unknown", "Unknown", "#475569", "#e2e8f0", True),
-        ("superseded", "Superseded", "#92400e", "#fef3c7", True),
-        ("pending", "Pending", "#1e40af", "#dbeafe", True),
-        ("not_yet_effective", "Not yet effective", "#6b21a8", "#f3e8ff", False),
+        ("applies", "Applies", True),
+        ("unknown", "Unknown", True),
+        ("superseded", "Superseded", True),
+        ("pending", "Pending", True),
+        ("not_yet_effective", "Not yet effective", False),
     ]
-    chip_html = "".join(
-        f'<span style="display:inline-block;margin:0 8px 8px 0;padding:8px 16px;border-radius:999px;'
-        f'background:{bg};color:{fg};font-weight:700;font-size:1.05rem;">{label}: {counts.get(key, 0)}</span>'
-        for key, label, fg, bg, always in chips
-        if always or counts.get(key)
+    labels = {f"{label}: {counts.get(key, 0)}": key for key, label, always in chips if always or counts.get(key)}
+    st.caption("Click a result type to filter. Click several to combine them, click again to remove one.")
+    picked = st.pills(
+        "Filter by result",
+        list(labels),
+        selection_mode="multi",
+        default=None,
+        label_visibility="collapsed",
+        key="result_filter",
     )
+    wanted = {labels[label] for label in (picked or []) if label in labels}
+    # Counts change with the address, so labels change; drop any stale selection safely.
+    shown = [item for item in results if not wanted or item["result"] in wanted]
     st.markdown(
-        f'<div style="margin:8px 0 2px 0;">{chip_html}</div>'
-        f'<div style="color:#64748b;font-size:0.9rem;margin-bottom:8px;">{len(results)} rules shown. '
+        f'<div style="color:#64748b;font-size:0.9rem;margin:2px 0 8px 0;">{len(shown)} of {len(results)} rules shown. '
         f"Expand a card to read the quoted source text.</div>",
         unsafe_allow_html=True,
     )
+    results = shown
+    if not results:
+        st.info("No rules of that type for this address.")
+        return
 
     for position, item in enumerate(results):
         status = item["result"].replace("_", " ").title()
