@@ -30,13 +30,24 @@ def _read_addresses() -> list[dict]:
 
 
 def _read_retrieval_dates() -> dict[str, str]:
-    manifest = ROOT / "starter_pack" / "corpus" / "corpus_manifest.csv"
-    with manifest.open(newline="") as handle:
-        return {
-            row["doc_id"]: row["retrieved_at"]
-            for row in csv.DictReader(handle)
-            if row.get("doc_id") and row.get("retrieved_at")
-        }
+    corpus = ROOT / "starter_pack" / "corpus"
+    dates: dict[str, str] = {}
+    with (corpus / "corpus_manifest.csv").open(newline="") as handle:
+        for row in csv.DictReader(handle):
+            doc_id = row.get("doc_id")
+            if not doc_id:
+                continue
+            if row.get("retrieved_at"):
+                dates[doc_id] = row["retrieved_at"]
+                continue
+            # Fall back to the RETRIEVED header of a saved text copy, if there is one.
+            text_file = corpus / "text" / f"{doc_id}.txt"
+            if text_file.exists():
+                for line in text_file.read_text(errors="ignore").splitlines()[:4]:
+                    if line.startswith("RETRIEVED:"):
+                        dates[doc_id] = line.split(":", 1)[1].strip()
+                        break
+    return dates
 
 
 def _run() -> None:
@@ -127,6 +138,8 @@ def _run() -> None:
             st.markdown(f"**Result:** `{status}`")
             if item["result"] == "unknown":
                 st.info("Unknown: a required coverage fact is missing from the supplied data.")
+            if item.get("conflict_flag"):
+                st.warning("Conflict flag: possible overlap with another law. Needs human review.")
             st.write(item["explanation"])
             retrieved_at = item.get("retrieved_at") or retrieval_dates.get(item.get("source_doc_id"))
             st.caption(

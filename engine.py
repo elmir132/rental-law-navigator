@@ -340,6 +340,25 @@ def evaluate_address(
                 f"A local rule ({local_title}) may override it because local coverage is unknown. "
                 f"{state_result['explanation']}"
             )
+    # NJ FAIR Act vs. local algorithmic-rent ordinances: in Jersey City and Hoboken the
+    # state act may preempt the local ordinance once effective, so flag both for review.
+    city = str(_value(address, "legal_city", "city") or "").strip().casefold()
+    if city in {"jersey city", "hoboken"}:
+        algo = [
+            (item, rules_by_id[item["team_rule_id"]])
+            for item in results
+            if rules_by_id.get(item["team_rule_id"], {}).get("category") == "algorithmic_rent_setting"
+        ]
+        has_state = any(_is_state_rule(rule) and _rule_state(rule) == "NJ" for _, rule in algo)
+        has_local = any(_is_city_rule(rule) for _, rule in algo)
+        if has_state and has_local:
+            for item, rule in algo:
+                if _is_state_rule(rule) or _is_city_rule(rule):
+                    item["conflict_flag"] = True
+                    item["explanation"] += (
+                        " Possible conflict flagged for human review: the NJ FAIR Act may preempt "
+                        "the local algorithmic-rent ordinance once it takes effect."
+                    )
     return results
 
 

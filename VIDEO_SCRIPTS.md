@@ -48,7 +48,7 @@ nine cities across CA, NJ, MA; six rule categories.*
 
 *Numbers (filled from the finished build):*
 - T1 affects **250** CA addresses. (Re-pull: `jq '.T1.affected_address_ids | length' changes.json`)
-- Suggested on-camera `unknown` click: a San Diego row such as `A0019` (no year built), per `DEMO_CHECKLIST.md`.
+- Suggested on-camera `unknown` click: `A0008` Jersey City (owner type not in the data), per `DEMO_CHECKLIST.md`.
 
 ---
 

@@ -199,8 +199,8 @@
       {
         "team_rule_id": "r-0050",
         "result": "applies",
-        "explanation": "Landlords are prohibited from using software, algorithms, or data-sharing platforms to collect and analyze nonpublic competitor information to coordinate, recommend, or implement rental prices, lease terms, or occupancy levels among competing lessors.",
-        "conflict_flag": false
+        "explanation": "Landlords are prohibited from using software, algorithms, or data-sharing platforms to collect and analyze nonpublic competitor information to coordinate, recommend, or implement rental prices, lease terms, or occupancy levels among competing lessors. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       },
       {
         "team_rule_id": "r-0081",
@@ -343,8 +343,8 @@
       {
         "team_rule_id": "r-0104",
         "result": "not_yet_effective",
-        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices.",
-        "conflict_flag": false
+        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       }
     ],
     "A0003": [
@@ -1153,8 +1153,8 @@
       {
         "team_rule_id": "r-0051",
         "result": "applies",
-        "explanation": "The ordinance bans the use of rent-setting algorithms, such as RealPage, that utilize nonpublic data to determine rental prices.",
-        "conflict_flag": false
+        "explanation": "The ordinance bans the use of rent-setting algorithms, such as RealPage, that utilize nonpublic data to determine rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       },
       {
         "team_rule_id": "r-0052",
@@ -1303,8 +1303,8 @@
       {
         "team_rule_id": "r-0104",
         "result": "not_yet_effective",
-        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices.",
-        "conflict_flag": false
+        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       }
     ],
     "A0009": [
@@ -1689,8 +1689,8 @@
       {
         "team_rule_id": "r-0051",
         "result": "applies",
-        "explanation": "The ordinance bans the use of rent-setting algorithms, such as RealPage, that utilize nonpublic data to determine rental prices.",
-        "conflict_flag": false
+        "explanation": "The ordinance bans the use of rent-setting algorithms, such as RealPage, that utilize nonpublic data to determine rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       },
       {
         "team_rule_id": "r-0052",
@@ -1839,8 +1839,8 @@
       {
         "team_rule_id": "r-0104",
         "result": "not_yet_effective",
-        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices.",
-        "conflict_flag": false
+        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       }
     ],
     "A0013": [
@@ -2389,8 +2389,8 @@
       {
         "team_rule_id": "r-0051",
         "result": "applies",
-        "explanation": "The ordinance bans the use of rent-setting algorithms, such as RealPage, that utilize nonpublic data to determine rental prices.",
-        "conflict_flag": false
+        "explanation": "The ordinance bans the use of rent-setting algorithms, such as RealPage, that utilize nonpublic data to determine rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       },
       {
         "team_rule_id": "r-0052",
@@ -2539,8 +2539,8 @@
       {
         "team_rule_id": "r-0104",
         "result": "not_yet_effective",
-        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices.",
-        "conflict_flag": false
+        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       }
     ],
     "A0018": [
@@ -3859,8 +3859,8 @@
       {
         "team_rule_id": "r-0051",
         "result": "applies",
-        "explanation": "The ordinance bans the use of rent-setting algorithms, such as RealPage, that utilize nonpublic data to determine rental prices.",
-        "conflict_flag": false
+        "explanation": "The ordinance bans the use of rent-setting algorithms, such as RealPage, that utilize nonpublic data to determine rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       },
       {
         "team_rule_id": "r-0052",
@@ -4009,8 +4009,8 @@
       {
         "team_rule_id": "r-0104",
         "result": "not_yet_effective",
-        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices.",
-        "conflict_flag": false
+        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       }
     ],
     "A0027": [
@@ -4717,8 +4717,8 @@
       {
         "team_rule_id": "r-0051",
         "result": "applies",
-        "explanation": "The ordinance bans the use of rent-setting algorithms, such as RealPage, that utilize nonpublic data to determine rental prices.",
-        "conflict_flag": false
+        "explanation": "The ordinance bans the use of rent-setting algorithms, such as RealPage, that utilize nonpublic data to determine rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       },
       {
         "team_rule_id": "r-0052",
@@ -4867,8 +4867,8 @@
       {
         "team_rule_id": "r-0104",
         "result": "not_yet_effective",
-        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices.",
-        "conflict_flag": false
+        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       }
     ],
     "A0033": [
@@ -5831,8 +5831,8 @@
       {
         "team_rule_id": "r-0050",
         "result": "applies",
-        "explanation": "Landlords are prohibited from using software, algorithms, or data-sharing platforms to collect and analyze nonpublic competitor information to coordinate, recommend, or implement rental prices, lease terms, or occupancy levels among competing lessors.",
-        "conflict_flag": false
+        "explanation": "Landlords are prohibited from using software, algorithms, or data-sharing platforms to collect and analyze nonpublic competitor information to coordinate, recommend, or implement rental prices, lease terms, or occupancy levels among competing lessors. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       },
       {
         "team_rule_id": "r-0081",
@@ -5975,8 +5975,8 @@
       {
         "team_rule_id": "r-0104",
         "result": "not_yet_effective",
-        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices.",
-        "conflict_flag": false
+        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       }
     ],
     "A0041": [
@@ -6111,8 +6111,8 @@
       {
         "team_rule_id": "r-0051",
         "result": "applies",
-        "explanation": "The ordinance bans the use of rent-setting algorithms, such as RealPage, that utilize nonpublic data to determine rental prices.",
-        "conflict_flag": false
+        "explanation": "The ordinance bans the use of rent-setting algorithms, such as RealPage, that utilize nonpublic data to determine rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       },
       {
         "team_rule_id": "r-0052",
@@ -6261,8 +6261,8 @@
       {
         "team_rule_id": "r-0104",
         "result": "not_yet_effective",
-        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices.",
-        "conflict_flag": false
+        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       }
     ],
     "A0043": [
@@ -6799,8 +6799,8 @@
       {
         "team_rule_id": "r-0051",
         "result": "applies",
-        "explanation": "The ordinance bans the use of rent-setting algorithms, such as RealPage, that utilize nonpublic data to determine rental prices.",
-        "conflict_flag": false
+        "explanation": "The ordinance bans the use of rent-setting algorithms, such as RealPage, that utilize nonpublic data to determine rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       },
       {
         "team_rule_id": "r-0052",
@@ -6949,8 +6949,8 @@
       {
         "team_rule_id": "r-0104",
         "result": "not_yet_effective",
-        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices.",
-        "conflict_flag": false
+        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       }
     ],
     "A0048": [
@@ -7121,8 +7121,8 @@
       {
         "team_rule_id": "r-0050",
         "result": "applies",
-        "explanation": "Landlords are prohibited from using software, algorithms, or data-sharing platforms to collect and analyze nonpublic competitor information to coordinate, recommend, or implement rental prices, lease terms, or occupancy levels among competing lessors.",
-        "conflict_flag": false
+        "explanation": "Landlords are prohibited from using software, algorithms, or data-sharing platforms to collect and analyze nonpublic competitor information to coordinate, recommend, or implement rental prices, lease terms, or occupancy levels among competing lessors. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       },
       {
         "team_rule_id": "r-0081",
@@ -7265,8 +7265,8 @@
       {
         "team_rule_id": "r-0104",
         "result": "not_yet_effective",
-        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices.",
-        "conflict_flag": false
+        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       }
     ],
     "A0050": [
@@ -7401,8 +7401,8 @@
       {
         "team_rule_id": "r-0051",
         "result": "applies",
-        "explanation": "The ordinance bans the use of rent-setting algorithms, such as RealPage, that utilize nonpublic data to determine rental prices.",
-        "conflict_flag": false
+        "explanation": "The ordinance bans the use of rent-setting algorithms, such as RealPage, that utilize nonpublic data to determine rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       },
       {
         "team_rule_id": "r-0052",
@@ -7551,8 +7551,8 @@
       {
         "team_rule_id": "r-0104",
         "result": "not_yet_effective",
-        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices.",
-        "conflict_flag": false
+        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       }
     ],
     "A0052": [
@@ -10953,8 +10953,8 @@
       {
         "team_rule_id": "r-0051",
         "result": "applies",
-        "explanation": "The ordinance bans the use of rent-setting algorithms, such as RealPage, that utilize nonpublic data to determine rental prices.",
-        "conflict_flag": false
+        "explanation": "The ordinance bans the use of rent-setting algorithms, such as RealPage, that utilize nonpublic data to determine rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       },
       {
         "team_rule_id": "r-0052",
@@ -11103,8 +11103,8 @@
       {
         "team_rule_id": "r-0104",
         "result": "not_yet_effective",
-        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices.",
-        "conflict_flag": false
+        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       }
     ],
     "A0079": [
@@ -12195,8 +12195,8 @@
       {
         "team_rule_id": "r-0050",
         "result": "applies",
-        "explanation": "Landlords are prohibited from using software, algorithms, or data-sharing platforms to collect and analyze nonpublic competitor information to coordinate, recommend, or implement rental prices, lease terms, or occupancy levels among competing lessors.",
-        "conflict_flag": false
+        "explanation": "Landlords are prohibited from using software, algorithms, or data-sharing platforms to collect and analyze nonpublic competitor information to coordinate, recommend, or implement rental prices, lease terms, or occupancy levels among competing lessors. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       },
       {
         "team_rule_id": "r-0081",
@@ -12339,8 +12339,8 @@
       {
         "team_rule_id": "r-0104",
         "result": "not_yet_effective",
-        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices.",
-        "conflict_flag": false
+        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       }
     ],
     "A0088": [
@@ -12517,8 +12517,8 @@
       {
         "team_rule_id": "r-0050",
         "result": "applies",
-        "explanation": "Landlords are prohibited from using software, algorithms, or data-sharing platforms to collect and analyze nonpublic competitor information to coordinate, recommend, or implement rental prices, lease terms, or occupancy levels among competing lessors.",
-        "conflict_flag": false
+        "explanation": "Landlords are prohibited from using software, algorithms, or data-sharing platforms to collect and analyze nonpublic competitor information to coordinate, recommend, or implement rental prices, lease terms, or occupancy levels among competing lessors. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       },
       {
         "team_rule_id": "r-0081",
@@ -12661,8 +12661,8 @@
       {
         "team_rule_id": "r-0104",
         "result": "not_yet_effective",
-        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices.",
-        "conflict_flag": false
+        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       }
     ],
     "A0090": [
@@ -14085,8 +14085,8 @@
       {
         "team_rule_id": "r-0050",
         "result": "applies",
-        "explanation": "Landlords are prohibited from using software, algorithms, or data-sharing platforms to collect and analyze nonpublic competitor information to coordinate, recommend, or implement rental prices, lease terms, or occupancy levels among competing lessors.",
-        "conflict_flag": false
+        "explanation": "Landlords are prohibited from using software, algorithms, or data-sharing platforms to collect and analyze nonpublic competitor information to coordinate, recommend, or implement rental prices, lease terms, or occupancy levels among competing lessors. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       },
       {
         "team_rule_id": "r-0081",
@@ -14229,8 +14229,8 @@
       {
         "team_rule_id": "r-0104",
         "result": "not_yet_effective",
-        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices.",
-        "conflict_flag": false
+        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       }
     ],
     "A0100": [
@@ -14395,8 +14395,8 @@
       {
         "team_rule_id": "r-0051",
         "result": "applies",
-        "explanation": "The ordinance bans the use of rent-setting algorithms, such as RealPage, that utilize nonpublic data to determine rental prices.",
-        "conflict_flag": false
+        "explanation": "The ordinance bans the use of rent-setting algorithms, such as RealPage, that utilize nonpublic data to determine rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       },
       {
         "team_rule_id": "r-0052",
@@ -14545,8 +14545,8 @@
       {
         "team_rule_id": "r-0104",
         "result": "not_yet_effective",
-        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices.",
-        "conflict_flag": false
+        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       }
     ],
     "A0102": [
@@ -14595,8 +14595,8 @@
       {
         "team_rule_id": "r-0050",
         "result": "applies",
-        "explanation": "Landlords are prohibited from using software, algorithms, or data-sharing platforms to collect and analyze nonpublic competitor information to coordinate, recommend, or implement rental prices, lease terms, or occupancy levels among competing lessors.",
-        "conflict_flag": false
+        "explanation": "Landlords are prohibited from using software, algorithms, or data-sharing platforms to collect and analyze nonpublic competitor information to coordinate, recommend, or implement rental prices, lease terms, or occupancy levels among competing lessors. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       },
       {
         "team_rule_id": "r-0081",
@@ -14739,8 +14739,8 @@
       {
         "team_rule_id": "r-0104",
         "result": "not_yet_effective",
-        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices.",
-        "conflict_flag": false
+        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       }
     ],
     "A0103": [
@@ -15531,8 +15531,8 @@
       {
         "team_rule_id": "r-0051",
         "result": "applies",
-        "explanation": "The ordinance bans the use of rent-setting algorithms, such as RealPage, that utilize nonpublic data to determine rental prices.",
-        "conflict_flag": false
+        "explanation": "The ordinance bans the use of rent-setting algorithms, such as RealPage, that utilize nonpublic data to determine rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       },
       {
         "team_rule_id": "r-0052",
@@ -15681,8 +15681,8 @@
       {
         "team_rule_id": "r-0104",
         "result": "not_yet_effective",
-        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices.",
-        "conflict_flag": false
+        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       }
     ],
     "A0109": [
@@ -16861,8 +16861,8 @@
       {
         "team_rule_id": "r-0051",
         "result": "applies",
-        "explanation": "The ordinance bans the use of rent-setting algorithms, such as RealPage, that utilize nonpublic data to determine rental prices.",
-        "conflict_flag": false
+        "explanation": "The ordinance bans the use of rent-setting algorithms, such as RealPage, that utilize nonpublic data to determine rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       },
       {
         "team_rule_id": "r-0052",
@@ -17011,8 +17011,8 @@
       {
         "team_rule_id": "r-0104",
         "result": "not_yet_effective",
-        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices.",
-        "conflict_flag": false
+        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       }
     ],
     "A0117": [
@@ -17335,8 +17335,8 @@
       {
         "team_rule_id": "r-0050",
         "result": "applies",
-        "explanation": "Landlords are prohibited from using software, algorithms, or data-sharing platforms to collect and analyze nonpublic competitor information to coordinate, recommend, or implement rental prices, lease terms, or occupancy levels among competing lessors.",
-        "conflict_flag": false
+        "explanation": "Landlords are prohibited from using software, algorithms, or data-sharing platforms to collect and analyze nonpublic competitor information to coordinate, recommend, or implement rental prices, lease terms, or occupancy levels among competing lessors. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       },
       {
         "team_rule_id": "r-0081",
@@ -17479,8 +17479,8 @@
       {
         "team_rule_id": "r-0104",
         "result": "not_yet_effective",
-        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices.",
-        "conflict_flag": false
+        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       }
     ],
     "A0120": [
@@ -18223,8 +18223,8 @@
       {
         "team_rule_id": "r-0050",
         "result": "applies",
-        "explanation": "Landlords are prohibited from using software, algorithms, or data-sharing platforms to collect and analyze nonpublic competitor information to coordinate, recommend, or implement rental prices, lease terms, or occupancy levels among competing lessors.",
-        "conflict_flag": false
+        "explanation": "Landlords are prohibited from using software, algorithms, or data-sharing platforms to collect and analyze nonpublic competitor information to coordinate, recommend, or implement rental prices, lease terms, or occupancy levels among competing lessors. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       },
       {
         "team_rule_id": "r-0081",
@@ -18367,8 +18367,8 @@
       {
         "team_rule_id": "r-0104",
         "result": "not_yet_effective",
-        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices.",
-        "conflict_flag": false
+        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       }
     ],
     "A0126": [
@@ -19069,8 +19069,8 @@
       {
         "team_rule_id": "r-0051",
         "result": "applies",
-        "explanation": "The ordinance bans the use of rent-setting algorithms, such as RealPage, that utilize nonpublic data to determine rental prices.",
-        "conflict_flag": false
+        "explanation": "The ordinance bans the use of rent-setting algorithms, such as RealPage, that utilize nonpublic data to determine rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       },
       {
         "team_rule_id": "r-0052",
@@ -19219,8 +19219,8 @@
       {
         "team_rule_id": "r-0104",
         "result": "not_yet_effective",
-        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices.",
-        "conflict_flag": false
+        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       }
     ],
     "A0132": [
@@ -19817,8 +19817,8 @@
       {
         "team_rule_id": "r-0050",
         "result": "applies",
-        "explanation": "Landlords are prohibited from using software, algorithms, or data-sharing platforms to collect and analyze nonpublic competitor information to coordinate, recommend, or implement rental prices, lease terms, or occupancy levels among competing lessors.",
-        "conflict_flag": false
+        "explanation": "Landlords are prohibited from using software, algorithms, or data-sharing platforms to collect and analyze nonpublic competitor information to coordinate, recommend, or implement rental prices, lease terms, or occupancy levels among competing lessors. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       },
       {
         "team_rule_id": "r-0081",
@@ -19961,8 +19961,8 @@
       {
         "team_rule_id": "r-0104",
         "result": "not_yet_effective",
-        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices.",
-        "conflict_flag": false
+        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       }
     ],
     "A0137": [
@@ -20267,8 +20267,8 @@
       {
         "team_rule_id": "r-0051",
         "result": "applies",
-        "explanation": "The ordinance bans the use of rent-setting algorithms, such as RealPage, that utilize nonpublic data to determine rental prices.",
-        "conflict_flag": false
+        "explanation": "The ordinance bans the use of rent-setting algorithms, such as RealPage, that utilize nonpublic data to determine rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       },
       {
         "team_rule_id": "r-0052",
@@ -20417,8 +20417,8 @@
       {
         "team_rule_id": "r-0104",
         "result": "not_yet_effective",
-        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices.",
-        "conflict_flag": false
+        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       }
     ],
     "A0140": [
@@ -23375,8 +23375,8 @@
       {
         "team_rule_id": "r-0051",
         "result": "applies",
-        "explanation": "The ordinance bans the use of rent-setting algorithms, such as RealPage, that utilize nonpublic data to determine rental prices.",
-        "conflict_flag": false
+        "explanation": "The ordinance bans the use of rent-setting algorithms, such as RealPage, that utilize nonpublic data to determine rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       },
       {
         "team_rule_id": "r-0052",
@@ -23525,16 +23525,16 @@
       {
         "team_rule_id": "r-0104",
         "result": "not_yet_effective",
-        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices.",
-        "conflict_flag": false
+        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       }
     ],
     "A0161": [
       {
         "team_rule_id": "r-0051",
         "result": "applies",
-        "explanation": "The ordinance bans the use of rent-setting algorithms, such as RealPage, that utilize nonpublic data to determine rental prices.",
-        "conflict_flag": false
+        "explanation": "The ordinance bans the use of rent-setting algorithms, such as RealPage, that utilize nonpublic data to determine rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       },
       {
         "team_rule_id": "r-0052",
@@ -23683,8 +23683,8 @@
       {
         "team_rule_id": "r-0104",
         "result": "not_yet_effective",
-        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices.",
-        "conflict_flag": false
+        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       }
     ],
     "A0162": [
@@ -23843,8 +23843,8 @@
       {
         "team_rule_id": "r-0051",
         "result": "applies",
-        "explanation": "The ordinance bans the use of rent-setting algorithms, such as RealPage, that utilize nonpublic data to determine rental prices.",
-        "conflict_flag": false
+        "explanation": "The ordinance bans the use of rent-setting algorithms, such as RealPage, that utilize nonpublic data to determine rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       },
       {
         "team_rule_id": "r-0052",
@@ -23993,8 +23993,8 @@
       {
         "team_rule_id": "r-0104",
         "result": "not_yet_effective",
-        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices.",
-        "conflict_flag": false
+        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       }
     ],
     "A0164": [
@@ -24603,8 +24603,8 @@
       {
         "team_rule_id": "r-0050",
         "result": "applies",
-        "explanation": "Landlords are prohibited from using software, algorithms, or data-sharing platforms to collect and analyze nonpublic competitor information to coordinate, recommend, or implement rental prices, lease terms, or occupancy levels among competing lessors.",
-        "conflict_flag": false
+        "explanation": "Landlords are prohibited from using software, algorithms, or data-sharing platforms to collect and analyze nonpublic competitor information to coordinate, recommend, or implement rental prices, lease terms, or occupancy levels among competing lessors. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       },
       {
         "team_rule_id": "r-0081",
@@ -24747,8 +24747,8 @@
       {
         "team_rule_id": "r-0104",
         "result": "not_yet_effective",
-        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices.",
-        "conflict_flag": false
+        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       }
     ],
     "A0169": [
@@ -25029,8 +25029,8 @@
       {
         "team_rule_id": "r-0051",
         "result": "applies",
-        "explanation": "The ordinance bans the use of rent-setting algorithms, such as RealPage, that utilize nonpublic data to determine rental prices.",
-        "conflict_flag": false
+        "explanation": "The ordinance bans the use of rent-setting algorithms, such as RealPage, that utilize nonpublic data to determine rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       },
       {
         "team_rule_id": "r-0052",
@@ -25179,8 +25179,8 @@
       {
         "team_rule_id": "r-0104",
         "result": "not_yet_effective",
-        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices.",
-        "conflict_flag": false
+        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       }
     ],
     "A0172": [
@@ -25839,8 +25839,8 @@
       {
         "team_rule_id": "r-0051",
         "result": "applies",
-        "explanation": "The ordinance bans the use of rent-setting algorithms, such as RealPage, that utilize nonpublic data to determine rental prices.",
-        "conflict_flag": false
+        "explanation": "The ordinance bans the use of rent-setting algorithms, such as RealPage, that utilize nonpublic data to determine rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       },
       {
         "team_rule_id": "r-0052",
@@ -25989,8 +25989,8 @@
       {
         "team_rule_id": "r-0104",
         "result": "not_yet_effective",
-        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices.",
-        "conflict_flag": false
+        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       }
     ],
     "A0178": [
@@ -26495,8 +26495,8 @@
       {
         "team_rule_id": "r-0050",
         "result": "applies",
-        "explanation": "Landlords are prohibited from using software, algorithms, or data-sharing platforms to collect and analyze nonpublic competitor information to coordinate, recommend, or implement rental prices, lease terms, or occupancy levels among competing lessors.",
-        "conflict_flag": false
+        "explanation": "Landlords are prohibited from using software, algorithms, or data-sharing platforms to collect and analyze nonpublic competitor information to coordinate, recommend, or implement rental prices, lease terms, or occupancy levels among competing lessors. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       },
       {
         "team_rule_id": "r-0081",
@@ -26639,8 +26639,8 @@
       {
         "team_rule_id": "r-0104",
         "result": "not_yet_effective",
-        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices.",
-        "conflict_flag": false
+        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       }
     ],
     "A0182": [
@@ -26689,8 +26689,8 @@
       {
         "team_rule_id": "r-0050",
         "result": "applies",
-        "explanation": "Landlords are prohibited from using software, algorithms, or data-sharing platforms to collect and analyze nonpublic competitor information to coordinate, recommend, or implement rental prices, lease terms, or occupancy levels among competing lessors.",
-        "conflict_flag": false
+        "explanation": "Landlords are prohibited from using software, algorithms, or data-sharing platforms to collect and analyze nonpublic competitor information to coordinate, recommend, or implement rental prices, lease terms, or occupancy levels among competing lessors. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       },
       {
         "team_rule_id": "r-0081",
@@ -26833,8 +26833,8 @@
       {
         "team_rule_id": "r-0104",
         "result": "not_yet_effective",
-        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices.",
-        "conflict_flag": false
+        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       }
     ],
     "A0183": [
@@ -27223,8 +27223,8 @@
       {
         "team_rule_id": "r-0051",
         "result": "applies",
-        "explanation": "The ordinance bans the use of rent-setting algorithms, such as RealPage, that utilize nonpublic data to determine rental prices.",
-        "conflict_flag": false
+        "explanation": "The ordinance bans the use of rent-setting algorithms, such as RealPage, that utilize nonpublic data to determine rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       },
       {
         "team_rule_id": "r-0052",
@@ -27373,16 +27373,16 @@
       {
         "team_rule_id": "r-0104",
         "result": "not_yet_effective",
-        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices.",
-        "conflict_flag": false
+        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       }
     ],
     "A0186": [
       {
         "team_rule_id": "r-0051",
         "result": "applies",
-        "explanation": "The ordinance bans the use of rent-setting algorithms, such as RealPage, that utilize nonpublic data to determine rental prices.",
-        "conflict_flag": false
+        "explanation": "The ordinance bans the use of rent-setting algorithms, such as RealPage, that utilize nonpublic data to determine rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       },
       {
         "team_rule_id": "r-0052",
@@ -27531,16 +27531,16 @@
       {
         "team_rule_id": "r-0104",
         "result": "not_yet_effective",
-        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices.",
-        "conflict_flag": false
+        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       }
     ],
     "A0187": [
       {
         "team_rule_id": "r-0051",
         "result": "applies",
-        "explanation": "The ordinance bans the use of rent-setting algorithms, such as RealPage, that utilize nonpublic data to determine rental prices.",
-        "conflict_flag": false
+        "explanation": "The ordinance bans the use of rent-setting algorithms, such as RealPage, that utilize nonpublic data to determine rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       },
       {
         "team_rule_id": "r-0052",
@@ -27689,8 +27689,8 @@
       {
         "team_rule_id": "r-0104",
         "result": "not_yet_effective",
-        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices.",
-        "conflict_flag": false
+        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       }
     ],
     "A0188": [
@@ -30971,8 +30971,8 @@
       {
         "team_rule_id": "r-0050",
         "result": "applies",
-        "explanation": "Landlords are prohibited from using software, algorithms, or data-sharing platforms to collect and analyze nonpublic competitor information to coordinate, recommend, or implement rental prices, lease terms, or occupancy levels among competing lessors.",
-        "conflict_flag": false
+        "explanation": "Landlords are prohibited from using software, algorithms, or data-sharing platforms to collect and analyze nonpublic competitor information to coordinate, recommend, or implement rental prices, lease terms, or occupancy levels among competing lessors. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       },
       {
         "team_rule_id": "r-0081",
@@ -31115,8 +31115,8 @@
       {
         "team_rule_id": "r-0104",
         "result": "not_yet_effective",
-        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices.",
-        "conflict_flag": false
+        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       }
     ],
     "A0209": [
@@ -33077,8 +33077,8 @@
       {
         "team_rule_id": "r-0050",
         "result": "applies",
-        "explanation": "Landlords are prohibited from using software, algorithms, or data-sharing platforms to collect and analyze nonpublic competitor information to coordinate, recommend, or implement rental prices, lease terms, or occupancy levels among competing lessors.",
-        "conflict_flag": false
+        "explanation": "Landlords are prohibited from using software, algorithms, or data-sharing platforms to collect and analyze nonpublic competitor information to coordinate, recommend, or implement rental prices, lease terms, or occupancy levels among competing lessors. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       },
       {
         "team_rule_id": "r-0081",
@@ -33221,8 +33221,8 @@
       {
         "team_rule_id": "r-0104",
         "result": "not_yet_effective",
-        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices.",
-        "conflict_flag": false
+        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       }
     ],
     "A0224": [
@@ -33673,8 +33673,8 @@
       {
         "team_rule_id": "r-0050",
         "result": "applies",
-        "explanation": "Landlords are prohibited from using software, algorithms, or data-sharing platforms to collect and analyze nonpublic competitor information to coordinate, recommend, or implement rental prices, lease terms, or occupancy levels among competing lessors.",
-        "conflict_flag": false
+        "explanation": "Landlords are prohibited from using software, algorithms, or data-sharing platforms to collect and analyze nonpublic competitor information to coordinate, recommend, or implement rental prices, lease terms, or occupancy levels among competing lessors. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       },
       {
         "team_rule_id": "r-0081",
@@ -33817,8 +33817,8 @@
       {
         "team_rule_id": "r-0104",
         "result": "not_yet_effective",
-        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices.",
-        "conflict_flag": false
+        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       }
     ],
     "A0228": [
@@ -35783,8 +35783,8 @@
       {
         "team_rule_id": "r-0050",
         "result": "applies",
-        "explanation": "Landlords are prohibited from using software, algorithms, or data-sharing platforms to collect and analyze nonpublic competitor information to coordinate, recommend, or implement rental prices, lease terms, or occupancy levels among competing lessors.",
-        "conflict_flag": false
+        "explanation": "Landlords are prohibited from using software, algorithms, or data-sharing platforms to collect and analyze nonpublic competitor information to coordinate, recommend, or implement rental prices, lease terms, or occupancy levels among competing lessors. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       },
       {
         "team_rule_id": "r-0081",
@@ -35927,8 +35927,8 @@
       {
         "team_rule_id": "r-0104",
         "result": "not_yet_effective",
-        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices.",
-        "conflict_flag": false
+        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       }
     ],
     "A0242": [
@@ -36057,8 +36057,8 @@
       {
         "team_rule_id": "r-0051",
         "result": "applies",
-        "explanation": "The ordinance bans the use of rent-setting algorithms, such as RealPage, that utilize nonpublic data to determine rental prices.",
-        "conflict_flag": false
+        "explanation": "The ordinance bans the use of rent-setting algorithms, such as RealPage, that utilize nonpublic data to determine rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       },
       {
         "team_rule_id": "r-0052",
@@ -36207,8 +36207,8 @@
       {
         "team_rule_id": "r-0104",
         "result": "not_yet_effective",
-        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices.",
-        "conflict_flag": false
+        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       }
     ],
     "A0244": [
@@ -36257,8 +36257,8 @@
       {
         "team_rule_id": "r-0050",
         "result": "applies",
-        "explanation": "Landlords are prohibited from using software, algorithms, or data-sharing platforms to collect and analyze nonpublic competitor information to coordinate, recommend, or implement rental prices, lease terms, or occupancy levels among competing lessors.",
-        "conflict_flag": false
+        "explanation": "Landlords are prohibited from using software, algorithms, or data-sharing platforms to collect and analyze nonpublic competitor information to coordinate, recommend, or implement rental prices, lease terms, or occupancy levels among competing lessors. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       },
       {
         "team_rule_id": "r-0081",
@@ -36401,8 +36401,8 @@
       {
         "team_rule_id": "r-0104",
         "result": "not_yet_effective",
-        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices.",
-        "conflict_flag": false
+        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       }
     ],
     "A0245": [
@@ -37145,8 +37145,8 @@
       {
         "team_rule_id": "r-0051",
         "result": "applies",
-        "explanation": "The ordinance bans the use of rent-setting algorithms, such as RealPage, that utilize nonpublic data to determine rental prices.",
-        "conflict_flag": false
+        "explanation": "The ordinance bans the use of rent-setting algorithms, such as RealPage, that utilize nonpublic data to determine rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       },
       {
         "team_rule_id": "r-0052",
@@ -37295,8 +37295,8 @@
       {
         "team_rule_id": "r-0104",
         "result": "not_yet_effective",
-        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices.",
-        "conflict_flag": false
+        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       }
     ],
     "A0251": [
@@ -37783,8 +37783,8 @@
       {
         "team_rule_id": "r-0050",
         "result": "applies",
-        "explanation": "Landlords are prohibited from using software, algorithms, or data-sharing platforms to collect and analyze nonpublic competitor information to coordinate, recommend, or implement rental prices, lease terms, or occupancy levels among competing lessors.",
-        "conflict_flag": false
+        "explanation": "Landlords are prohibited from using software, algorithms, or data-sharing platforms to collect and analyze nonpublic competitor information to coordinate, recommend, or implement rental prices, lease terms, or occupancy levels among competing lessors. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       },
       {
         "team_rule_id": "r-0081",
@@ -37927,8 +37927,8 @@
       {
         "team_rule_id": "r-0104",
         "result": "not_yet_effective",
-        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices.",
-        "conflict_flag": false
+        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       }
     ],
     "A0255": [
@@ -38129,8 +38129,8 @@
       {
         "team_rule_id": "r-0050",
         "result": "applies",
-        "explanation": "Landlords are prohibited from using software, algorithms, or data-sharing platforms to collect and analyze nonpublic competitor information to coordinate, recommend, or implement rental prices, lease terms, or occupancy levels among competing lessors.",
-        "conflict_flag": false
+        "explanation": "Landlords are prohibited from using software, algorithms, or data-sharing platforms to collect and analyze nonpublic competitor information to coordinate, recommend, or implement rental prices, lease terms, or occupancy levels among competing lessors. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       },
       {
         "team_rule_id": "r-0081",
@@ -38273,8 +38273,8 @@
       {
         "team_rule_id": "r-0104",
         "result": "not_yet_effective",
-        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices.",
-        "conflict_flag": false
+        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       }
     ],
     "A0257": [
@@ -38931,8 +38931,8 @@
       {
         "team_rule_id": "r-0050",
         "result": "applies",
-        "explanation": "Landlords are prohibited from using software, algorithms, or data-sharing platforms to collect and analyze nonpublic competitor information to coordinate, recommend, or implement rental prices, lease terms, or occupancy levels among competing lessors.",
-        "conflict_flag": false
+        "explanation": "Landlords are prohibited from using software, algorithms, or data-sharing platforms to collect and analyze nonpublic competitor information to coordinate, recommend, or implement rental prices, lease terms, or occupancy levels among competing lessors. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       },
       {
         "team_rule_id": "r-0081",
@@ -39075,8 +39075,8 @@
       {
         "team_rule_id": "r-0104",
         "result": "not_yet_effective",
-        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices.",
-        "conflict_flag": false
+        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       }
     ],
     "A0262": [
@@ -39617,8 +39617,8 @@
       {
         "team_rule_id": "r-0051",
         "result": "applies",
-        "explanation": "The ordinance bans the use of rent-setting algorithms, such as RealPage, that utilize nonpublic data to determine rental prices.",
-        "conflict_flag": false
+        "explanation": "The ordinance bans the use of rent-setting algorithms, such as RealPage, that utilize nonpublic data to determine rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       },
       {
         "team_rule_id": "r-0052",
@@ -39767,16 +39767,16 @@
       {
         "team_rule_id": "r-0104",
         "result": "not_yet_effective",
-        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices.",
-        "conflict_flag": false
+        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       }
     ],
     "A0266": [
       {
         "team_rule_id": "r-0051",
         "result": "applies",
-        "explanation": "The ordinance bans the use of rent-setting algorithms, such as RealPage, that utilize nonpublic data to determine rental prices.",
-        "conflict_flag": false
+        "explanation": "The ordinance bans the use of rent-setting algorithms, such as RealPage, that utilize nonpublic data to determine rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       },
       {
         "team_rule_id": "r-0052",
@@ -39925,8 +39925,8 @@
       {
         "team_rule_id": "r-0104",
         "result": "not_yet_effective",
-        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices.",
-        "conflict_flag": false
+        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       }
     ],
     "A0267": [
@@ -40255,8 +40255,8 @@
       {
         "team_rule_id": "r-0050",
         "result": "applies",
-        "explanation": "Landlords are prohibited from using software, algorithms, or data-sharing platforms to collect and analyze nonpublic competitor information to coordinate, recommend, or implement rental prices, lease terms, or occupancy levels among competing lessors.",
-        "conflict_flag": false
+        "explanation": "Landlords are prohibited from using software, algorithms, or data-sharing platforms to collect and analyze nonpublic competitor information to coordinate, recommend, or implement rental prices, lease terms, or occupancy levels among competing lessors. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       },
       {
         "team_rule_id": "r-0081",
@@ -40399,16 +40399,16 @@
       {
         "team_rule_id": "r-0104",
         "result": "not_yet_effective",
-        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices.",
-        "conflict_flag": false
+        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       }
     ],
     "A0270": [
       {
         "team_rule_id": "r-0051",
         "result": "applies",
-        "explanation": "The ordinance bans the use of rent-setting algorithms, such as RealPage, that utilize nonpublic data to determine rental prices.",
-        "conflict_flag": false
+        "explanation": "The ordinance bans the use of rent-setting algorithms, such as RealPage, that utilize nonpublic data to determine rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       },
       {
         "team_rule_id": "r-0052",
@@ -40557,8 +40557,8 @@
       {
         "team_rule_id": "r-0104",
         "result": "not_yet_effective",
-        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices.",
-        "conflict_flag": false
+        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       }
     ],
     "A0271": [
@@ -41799,8 +41799,8 @@
       {
         "team_rule_id": "r-0051",
         "result": "applies",
-        "explanation": "The ordinance bans the use of rent-setting algorithms, such as RealPage, that utilize nonpublic data to determine rental prices.",
-        "conflict_flag": false
+        "explanation": "The ordinance bans the use of rent-setting algorithms, such as RealPage, that utilize nonpublic data to determine rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       },
       {
         "team_rule_id": "r-0052",
@@ -41949,8 +41949,8 @@
       {
         "team_rule_id": "r-0104",
         "result": "not_yet_effective",
-        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices.",
-        "conflict_flag": false
+        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       }
     ],
     "A0280": [
@@ -43021,8 +43021,8 @@
       {
         "team_rule_id": "r-0050",
         "result": "applies",
-        "explanation": "Landlords are prohibited from using software, algorithms, or data-sharing platforms to collect and analyze nonpublic competitor information to coordinate, recommend, or implement rental prices, lease terms, or occupancy levels among competing lessors.",
-        "conflict_flag": false
+        "explanation": "Landlords are prohibited from using software, algorithms, or data-sharing platforms to collect and analyze nonpublic competitor information to coordinate, recommend, or implement rental prices, lease terms, or occupancy levels among competing lessors. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       },
       {
         "team_rule_id": "r-0081",
@@ -43165,16 +43165,16 @@
       {
         "team_rule_id": "r-0104",
         "result": "not_yet_effective",
-        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices.",
-        "conflict_flag": false
+        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       }
     ],
     "A0288": [
       {
         "team_rule_id": "r-0051",
         "result": "applies",
-        "explanation": "The ordinance bans the use of rent-setting algorithms, such as RealPage, that utilize nonpublic data to determine rental prices.",
-        "conflict_flag": false
+        "explanation": "The ordinance bans the use of rent-setting algorithms, such as RealPage, that utilize nonpublic data to determine rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       },
       {
         "team_rule_id": "r-0052",
@@ -43323,8 +43323,8 @@
       {
         "team_rule_id": "r-0104",
         "result": "not_yet_effective",
-        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices.",
-        "conflict_flag": false
+        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       }
     ],
     "A0289": [
@@ -44725,8 +44725,8 @@
       {
         "team_rule_id": "r-0050",
         "result": "applies",
-        "explanation": "Landlords are prohibited from using software, algorithms, or data-sharing platforms to collect and analyze nonpublic competitor information to coordinate, recommend, or implement rental prices, lease terms, or occupancy levels among competing lessors.",
-        "conflict_flag": false
+        "explanation": "Landlords are prohibited from using software, algorithms, or data-sharing platforms to collect and analyze nonpublic competitor information to coordinate, recommend, or implement rental prices, lease terms, or occupancy levels among competing lessors. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       },
       {
         "team_rule_id": "r-0081",
@@ -44869,8 +44869,8 @@
       {
         "team_rule_id": "r-0104",
         "result": "not_yet_effective",
-        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices.",
-        "conflict_flag": false
+        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       }
     ],
     "A0300": [
@@ -45967,8 +45967,8 @@
       {
         "team_rule_id": "r-0050",
         "result": "applies",
-        "explanation": "Landlords are prohibited from using software, algorithms, or data-sharing platforms to collect and analyze nonpublic competitor information to coordinate, recommend, or implement rental prices, lease terms, or occupancy levels among competing lessors.",
-        "conflict_flag": false
+        "explanation": "Landlords are prohibited from using software, algorithms, or data-sharing platforms to collect and analyze nonpublic competitor information to coordinate, recommend, or implement rental prices, lease terms, or occupancy levels among competing lessors. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       },
       {
         "team_rule_id": "r-0081",
@@ -46111,8 +46111,8 @@
       {
         "team_rule_id": "r-0104",
         "result": "not_yet_effective",
-        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices.",
-        "conflict_flag": false
+        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       }
     ],
     "A0309": [
@@ -48001,8 +48001,8 @@
       {
         "team_rule_id": "r-0050",
         "result": "applies",
-        "explanation": "Landlords are prohibited from using software, algorithms, or data-sharing platforms to collect and analyze nonpublic competitor information to coordinate, recommend, or implement rental prices, lease terms, or occupancy levels among competing lessors.",
-        "conflict_flag": false
+        "explanation": "Landlords are prohibited from using software, algorithms, or data-sharing platforms to collect and analyze nonpublic competitor information to coordinate, recommend, or implement rental prices, lease terms, or occupancy levels among competing lessors. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       },
       {
         "team_rule_id": "r-0081",
@@ -48145,16 +48145,16 @@
       {
         "team_rule_id": "r-0104",
         "result": "not_yet_effective",
-        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices.",
-        "conflict_flag": false
+        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       }
     ],
     "A0321": [
       {
         "team_rule_id": "r-0051",
         "result": "applies",
-        "explanation": "The ordinance bans the use of rent-setting algorithms, such as RealPage, that utilize nonpublic data to determine rental prices.",
-        "conflict_flag": false
+        "explanation": "The ordinance bans the use of rent-setting algorithms, such as RealPage, that utilize nonpublic data to determine rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       },
       {
         "team_rule_id": "r-0052",
@@ -48303,8 +48303,8 @@
       {
         "team_rule_id": "r-0104",
         "result": "not_yet_effective",
-        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices.",
-        "conflict_flag": false
+        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       }
     ],
     "A0322": [
@@ -48749,8 +48749,8 @@
       {
         "team_rule_id": "r-0051",
         "result": "applies",
-        "explanation": "The ordinance bans the use of rent-setting algorithms, such as RealPage, that utilize nonpublic data to determine rental prices.",
-        "conflict_flag": false
+        "explanation": "The ordinance bans the use of rent-setting algorithms, such as RealPage, that utilize nonpublic data to determine rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       },
       {
         "team_rule_id": "r-0052",
@@ -48899,8 +48899,8 @@
       {
         "team_rule_id": "r-0104",
         "result": "not_yet_effective",
-        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices.",
-        "conflict_flag": false
+        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       }
     ],
     "A0326": [
@@ -51511,8 +51511,8 @@
       {
         "team_rule_id": "r-0051",
         "result": "applies",
-        "explanation": "The ordinance bans the use of rent-setting algorithms, such as RealPage, that utilize nonpublic data to determine rental prices.",
-        "conflict_flag": false
+        "explanation": "The ordinance bans the use of rent-setting algorithms, such as RealPage, that utilize nonpublic data to determine rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       },
       {
         "team_rule_id": "r-0052",
@@ -51661,8 +51661,8 @@
       {
         "team_rule_id": "r-0104",
         "result": "not_yet_effective",
-        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices.",
-        "conflict_flag": false
+        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       }
     ],
     "A0345": [
@@ -52179,8 +52179,8 @@
       {
         "team_rule_id": "r-0050",
         "result": "applies",
-        "explanation": "Landlords are prohibited from using software, algorithms, or data-sharing platforms to collect and analyze nonpublic competitor information to coordinate, recommend, or implement rental prices, lease terms, or occupancy levels among competing lessors.",
-        "conflict_flag": false
+        "explanation": "Landlords are prohibited from using software, algorithms, or data-sharing platforms to collect and analyze nonpublic competitor information to coordinate, recommend, or implement rental prices, lease terms, or occupancy levels among competing lessors. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       },
       {
         "team_rule_id": "r-0081",
@@ -52323,8 +52323,8 @@
       {
         "team_rule_id": "r-0104",
         "result": "not_yet_effective",
-        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices.",
-        "conflict_flag": false
+        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       }
     ],
     "A0349": [
@@ -52561,8 +52561,8 @@
       {
         "team_rule_id": "r-0051",
         "result": "applies",
-        "explanation": "The ordinance bans the use of rent-setting algorithms, such as RealPage, that utilize nonpublic data to determine rental prices.",
-        "conflict_flag": false
+        "explanation": "The ordinance bans the use of rent-setting algorithms, such as RealPage, that utilize nonpublic data to determine rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       },
       {
         "team_rule_id": "r-0052",
@@ -52711,8 +52711,8 @@
       {
         "team_rule_id": "r-0104",
         "result": "not_yet_effective",
-        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices.",
-        "conflict_flag": false
+        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       }
     ],
     "A0351": [
@@ -53857,8 +53857,8 @@
       {
         "team_rule_id": "r-0050",
         "result": "applies",
-        "explanation": "Landlords are prohibited from using software, algorithms, or data-sharing platforms to collect and analyze nonpublic competitor information to coordinate, recommend, or implement rental prices, lease terms, or occupancy levels among competing lessors.",
-        "conflict_flag": false
+        "explanation": "Landlords are prohibited from using software, algorithms, or data-sharing platforms to collect and analyze nonpublic competitor information to coordinate, recommend, or implement rental prices, lease terms, or occupancy levels among competing lessors. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       },
       {
         "team_rule_id": "r-0081",
@@ -54001,16 +54001,16 @@
       {
         "team_rule_id": "r-0104",
         "result": "not_yet_effective",
-        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices.",
-        "conflict_flag": false
+        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       }
     ],
     "A0360": [
       {
         "team_rule_id": "r-0051",
         "result": "applies",
-        "explanation": "The ordinance bans the use of rent-setting algorithms, such as RealPage, that utilize nonpublic data to determine rental prices.",
-        "conflict_flag": false
+        "explanation": "The ordinance bans the use of rent-setting algorithms, such as RealPage, that utilize nonpublic data to determine rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       },
       {
         "team_rule_id": "r-0052",
@@ -54159,8 +54159,8 @@
       {
         "team_rule_id": "r-0104",
         "result": "not_yet_effective",
-        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices.",
-        "conflict_flag": false
+        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       }
     ],
     "A0361": [
@@ -55857,8 +55857,8 @@
       {
         "team_rule_id": "r-0051",
         "result": "applies",
-        "explanation": "The ordinance bans the use of rent-setting algorithms, such as RealPage, that utilize nonpublic data to determine rental prices.",
-        "conflict_flag": false
+        "explanation": "The ordinance bans the use of rent-setting algorithms, such as RealPage, that utilize nonpublic data to determine rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       },
       {
         "team_rule_id": "r-0052",
@@ -56007,8 +56007,8 @@
       {
         "team_rule_id": "r-0104",
         "result": "not_yet_effective",
-        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices.",
-        "conflict_flag": false
+        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       }
     ],
     "A0373": [
@@ -56689,8 +56689,8 @@
       {
         "team_rule_id": "r-0050",
         "result": "applies",
-        "explanation": "Landlords are prohibited from using software, algorithms, or data-sharing platforms to collect and analyze nonpublic competitor information to coordinate, recommend, or implement rental prices, lease terms, or occupancy levels among competing lessors.",
-        "conflict_flag": false
+        "explanation": "Landlords are prohibited from using software, algorithms, or data-sharing platforms to collect and analyze nonpublic competitor information to coordinate, recommend, or implement rental prices, lease terms, or occupancy levels among competing lessors. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       },
       {
         "team_rule_id": "r-0081",
@@ -56833,8 +56833,8 @@
       {
         "team_rule_id": "r-0104",
         "result": "not_yet_effective",
-        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices.",
-        "conflict_flag": false
+        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       }
     ],
     "A0378": [
@@ -58355,8 +58355,8 @@
       {
         "team_rule_id": "r-0051",
         "result": "applies",
-        "explanation": "The ordinance bans the use of rent-setting algorithms, such as RealPage, that utilize nonpublic data to determine rental prices.",
-        "conflict_flag": false
+        "explanation": "The ordinance bans the use of rent-setting algorithms, such as RealPage, that utilize nonpublic data to determine rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       },
       {
         "team_rule_id": "r-0052",
@@ -58505,8 +58505,8 @@
       {
         "team_rule_id": "r-0104",
         "result": "not_yet_effective",
-        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices.",
-        "conflict_flag": false
+        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       }
     ],
     "A0389": [
@@ -58555,8 +58555,8 @@
       {
         "team_rule_id": "r-0050",
         "result": "applies",
-        "explanation": "Landlords are prohibited from using software, algorithms, or data-sharing platforms to collect and analyze nonpublic competitor information to coordinate, recommend, or implement rental prices, lease terms, or occupancy levels among competing lessors.",
-        "conflict_flag": false
+        "explanation": "Landlords are prohibited from using software, algorithms, or data-sharing platforms to collect and analyze nonpublic competitor information to coordinate, recommend, or implement rental prices, lease terms, or occupancy levels among competing lessors. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       },
       {
         "team_rule_id": "r-0081",
@@ -58699,8 +58699,8 @@
       {
         "team_rule_id": "r-0104",
         "result": "not_yet_effective",
-        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices.",
-        "conflict_flag": false
+        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       }
     ],
     "A0390": [
@@ -59169,8 +59169,8 @@
       {
         "team_rule_id": "r-0051",
         "result": "applies",
-        "explanation": "The ordinance bans the use of rent-setting algorithms, such as RealPage, that utilize nonpublic data to determine rental prices.",
-        "conflict_flag": false
+        "explanation": "The ordinance bans the use of rent-setting algorithms, such as RealPage, that utilize nonpublic data to determine rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       },
       {
         "team_rule_id": "r-0052",
@@ -59319,16 +59319,16 @@
       {
         "team_rule_id": "r-0104",
         "result": "not_yet_effective",
-        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices.",
-        "conflict_flag": false
+        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       }
     ],
     "A0394": [
       {
         "team_rule_id": "r-0051",
         "result": "applies",
-        "explanation": "The ordinance bans the use of rent-setting algorithms, such as RealPage, that utilize nonpublic data to determine rental prices.",
-        "conflict_flag": false
+        "explanation": "The ordinance bans the use of rent-setting algorithms, such as RealPage, that utilize nonpublic data to determine rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       },
       {
         "team_rule_id": "r-0052",
@@ -59477,8 +59477,8 @@
       {
         "team_rule_id": "r-0104",
         "result": "not_yet_effective",
-        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices.",
-        "conflict_flag": false
+        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       }
     ],
     "A0395": [
@@ -60171,8 +60171,8 @@
       {
         "team_rule_id": "r-0050",
         "result": "applies",
-        "explanation": "Landlords are prohibited from using software, algorithms, or data-sharing platforms to collect and analyze nonpublic competitor information to coordinate, recommend, or implement rental prices, lease terms, or occupancy levels among competing lessors.",
-        "conflict_flag": false
+        "explanation": "Landlords are prohibited from using software, algorithms, or data-sharing platforms to collect and analyze nonpublic competitor information to coordinate, recommend, or implement rental prices, lease terms, or occupancy levels among competing lessors. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       },
       {
         "team_rule_id": "r-0081",
@@ -60315,8 +60315,8 @@
       {
         "team_rule_id": "r-0104",
         "result": "not_yet_effective",
-        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices.",
-        "conflict_flag": false
+        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       }
     ],
     "A0400": [
@@ -60847,8 +60847,8 @@
       {
         "team_rule_id": "r-0051",
         "result": "applies",
-        "explanation": "The ordinance bans the use of rent-setting algorithms, such as RealPage, that utilize nonpublic data to determine rental prices.",
-        "conflict_flag": false
+        "explanation": "The ordinance bans the use of rent-setting algorithms, such as RealPage, that utilize nonpublic data to determine rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       },
       {
         "team_rule_id": "r-0052",
@@ -60997,8 +60997,8 @@
       {
         "team_rule_id": "r-0104",
         "result": "not_yet_effective",
-        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices.",
-        "conflict_flag": false
+        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       }
     ],
     "A0405": [
@@ -61741,8 +61741,8 @@
       {
         "team_rule_id": "r-0051",
         "result": "applies",
-        "explanation": "The ordinance bans the use of rent-setting algorithms, such as RealPage, that utilize nonpublic data to determine rental prices.",
-        "conflict_flag": false
+        "explanation": "The ordinance bans the use of rent-setting algorithms, such as RealPage, that utilize nonpublic data to determine rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       },
       {
         "team_rule_id": "r-0052",
@@ -61891,8 +61891,8 @@
       {
         "team_rule_id": "r-0104",
         "result": "not_yet_effective",
-        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices.",
-        "conflict_flag": false
+        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       }
     ],
     "A0411": [
@@ -62561,8 +62561,8 @@
       {
         "team_rule_id": "r-0051",
         "result": "applies",
-        "explanation": "The ordinance bans the use of rent-setting algorithms, such as RealPage, that utilize nonpublic data to determine rental prices.",
-        "conflict_flag": false
+        "explanation": "The ordinance bans the use of rent-setting algorithms, such as RealPage, that utilize nonpublic data to determine rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       },
       {
         "team_rule_id": "r-0052",
@@ -62711,16 +62711,16 @@
       {
         "team_rule_id": "r-0104",
         "result": "not_yet_effective",
-        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices.",
-        "conflict_flag": false
+        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       }
     ],
     "A0416": [
       {
         "team_rule_id": "r-0051",
         "result": "applies",
-        "explanation": "The ordinance bans the use of rent-setting algorithms, such as RealPage, that utilize nonpublic data to determine rental prices.",
-        "conflict_flag": false
+        "explanation": "The ordinance bans the use of rent-setting algorithms, such as RealPage, that utilize nonpublic data to determine rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       },
       {
         "team_rule_id": "r-0052",
@@ -62869,8 +62869,8 @@
       {
         "team_rule_id": "r-0104",
         "result": "not_yet_effective",
-        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices.",
-        "conflict_flag": false
+        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       }
     ],
     "A0417": [
@@ -63029,8 +63029,8 @@
       {
         "team_rule_id": "r-0051",
         "result": "applies",
-        "explanation": "The ordinance bans the use of rent-setting algorithms, such as RealPage, that utilize nonpublic data to determine rental prices.",
-        "conflict_flag": false
+        "explanation": "The ordinance bans the use of rent-setting algorithms, such as RealPage, that utilize nonpublic data to determine rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       },
       {
         "team_rule_id": "r-0052",
@@ -63179,8 +63179,8 @@
       {
         "team_rule_id": "r-0104",
         "result": "not_yet_effective",
-        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices.",
-        "conflict_flag": false
+        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       }
     ],
     "A0419": [
@@ -64007,8 +64007,8 @@
       {
         "team_rule_id": "r-0050",
         "result": "applies",
-        "explanation": "Landlords are prohibited from using software, algorithms, or data-sharing platforms to collect and analyze nonpublic competitor information to coordinate, recommend, or implement rental prices, lease terms, or occupancy levels among competing lessors.",
-        "conflict_flag": false
+        "explanation": "Landlords are prohibited from using software, algorithms, or data-sharing platforms to collect and analyze nonpublic competitor information to coordinate, recommend, or implement rental prices, lease terms, or occupancy levels among competing lessors. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       },
       {
         "team_rule_id": "r-0081",
@@ -64151,8 +64151,8 @@
       {
         "team_rule_id": "r-0104",
         "result": "not_yet_effective",
-        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices.",
-        "conflict_flag": false
+        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       }
     ],
     "A0425": [
@@ -65727,8 +65727,8 @@
       {
         "team_rule_id": "r-0050",
         "result": "applies",
-        "explanation": "Landlords are prohibited from using software, algorithms, or data-sharing platforms to collect and analyze nonpublic competitor information to coordinate, recommend, or implement rental prices, lease terms, or occupancy levels among competing lessors.",
-        "conflict_flag": false
+        "explanation": "Landlords are prohibited from using software, algorithms, or data-sharing platforms to collect and analyze nonpublic competitor information to coordinate, recommend, or implement rental prices, lease terms, or occupancy levels among competing lessors. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       },
       {
         "team_rule_id": "r-0081",
@@ -65871,8 +65871,8 @@
       {
         "team_rule_id": "r-0104",
         "result": "not_yet_effective",
-        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices.",
-        "conflict_flag": false
+        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       }
     ],
     "A0436": [
@@ -65921,8 +65921,8 @@
       {
         "team_rule_id": "r-0050",
         "result": "applies",
-        "explanation": "Landlords are prohibited from using software, algorithms, or data-sharing platforms to collect and analyze nonpublic competitor information to coordinate, recommend, or implement rental prices, lease terms, or occupancy levels among competing lessors.",
-        "conflict_flag": false
+        "explanation": "Landlords are prohibited from using software, algorithms, or data-sharing platforms to collect and analyze nonpublic competitor information to coordinate, recommend, or implement rental prices, lease terms, or occupancy levels among competing lessors. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       },
       {
         "team_rule_id": "r-0081",
@@ -66065,8 +66065,8 @@
       {
         "team_rule_id": "r-0104",
         "result": "not_yet_effective",
-        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices.",
-        "conflict_flag": false
+        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       }
     ],
     "A0437": [
@@ -66225,8 +66225,8 @@
       {
         "team_rule_id": "r-0051",
         "result": "applies",
-        "explanation": "The ordinance bans the use of rent-setting algorithms, such as RealPage, that utilize nonpublic data to determine rental prices.",
-        "conflict_flag": false
+        "explanation": "The ordinance bans the use of rent-setting algorithms, such as RealPage, that utilize nonpublic data to determine rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       },
       {
         "team_rule_id": "r-0052",
@@ -66375,8 +66375,8 @@
       {
         "team_rule_id": "r-0104",
         "result": "not_yet_effective",
-        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices.",
-        "conflict_flag": false
+        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       }
     ],
     "A0439": [
@@ -67545,8 +67545,8 @@
       {
         "team_rule_id": "r-0050",
         "result": "applies",
-        "explanation": "Landlords are prohibited from using software, algorithms, or data-sharing platforms to collect and analyze nonpublic competitor information to coordinate, recommend, or implement rental prices, lease terms, or occupancy levels among competing lessors.",
-        "conflict_flag": false
+        "explanation": "Landlords are prohibited from using software, algorithms, or data-sharing platforms to collect and analyze nonpublic competitor information to coordinate, recommend, or implement rental prices, lease terms, or occupancy levels among competing lessors. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       },
       {
         "team_rule_id": "r-0081",
@@ -67689,8 +67689,8 @@
       {
         "team_rule_id": "r-0104",
         "result": "not_yet_effective",
-        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices.",
-        "conflict_flag": false
+        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       }
     ],
     "A0448": [
@@ -67989,8 +67989,8 @@
       {
         "team_rule_id": "r-0051",
         "result": "applies",
-        "explanation": "The ordinance bans the use of rent-setting algorithms, such as RealPage, that utilize nonpublic data to determine rental prices.",
-        "conflict_flag": false
+        "explanation": "The ordinance bans the use of rent-setting algorithms, such as RealPage, that utilize nonpublic data to determine rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       },
       {
         "team_rule_id": "r-0052",
@@ -68139,8 +68139,8 @@
       {
         "team_rule_id": "r-0104",
         "result": "not_yet_effective",
-        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices.",
-        "conflict_flag": false
+        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       }
     ],
     "A0451": [
@@ -68719,8 +68719,8 @@
       {
         "team_rule_id": "r-0051",
         "result": "applies",
-        "explanation": "The ordinance bans the use of rent-setting algorithms, such as RealPage, that utilize nonpublic data to determine rental prices.",
-        "conflict_flag": false
+        "explanation": "The ordinance bans the use of rent-setting algorithms, such as RealPage, that utilize nonpublic data to determine rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       },
       {
         "team_rule_id": "r-0052",
@@ -68869,8 +68869,8 @@
       {
         "team_rule_id": "r-0104",
         "result": "not_yet_effective",
-        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices.",
-        "conflict_flag": false
+        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       }
     ],
     "A0456": [
@@ -69315,8 +69315,8 @@
       {
         "team_rule_id": "r-0051",
         "result": "applies",
-        "explanation": "The ordinance bans the use of rent-setting algorithms, such as RealPage, that utilize nonpublic data to determine rental prices.",
-        "conflict_flag": false
+        "explanation": "The ordinance bans the use of rent-setting algorithms, such as RealPage, that utilize nonpublic data to determine rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       },
       {
         "team_rule_id": "r-0052",
@@ -69465,8 +69465,8 @@
       {
         "team_rule_id": "r-0104",
         "result": "not_yet_effective",
-        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices.",
-        "conflict_flag": false
+        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       }
     ],
     "A0460": [
@@ -69747,8 +69747,8 @@
       {
         "team_rule_id": "r-0051",
         "result": "applies",
-        "explanation": "The ordinance bans the use of rent-setting algorithms, such as RealPage, that utilize nonpublic data to determine rental prices.",
-        "conflict_flag": false
+        "explanation": "The ordinance bans the use of rent-setting algorithms, such as RealPage, that utilize nonpublic data to determine rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       },
       {
         "team_rule_id": "r-0052",
@@ -69897,8 +69897,8 @@
       {
         "team_rule_id": "r-0104",
         "result": "not_yet_effective",
-        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices.",
-        "conflict_flag": false
+        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       }
     ],
     "A0463": [
@@ -71127,8 +71127,8 @@
       {
         "team_rule_id": "r-0050",
         "result": "applies",
-        "explanation": "Landlords are prohibited from using software, algorithms, or data-sharing platforms to collect and analyze nonpublic competitor information to coordinate, recommend, or implement rental prices, lease terms, or occupancy levels among competing lessors.",
-        "conflict_flag": false
+        "explanation": "Landlords are prohibited from using software, algorithms, or data-sharing platforms to collect and analyze nonpublic competitor information to coordinate, recommend, or implement rental prices, lease terms, or occupancy levels among competing lessors. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       },
       {
         "team_rule_id": "r-0081",
@@ -71271,8 +71271,8 @@
       {
         "team_rule_id": "r-0104",
         "result": "not_yet_effective",
-        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices.",
-        "conflict_flag": false
+        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       }
     ],
     "A0472": [
@@ -71321,8 +71321,8 @@
       {
         "team_rule_id": "r-0050",
         "result": "applies",
-        "explanation": "Landlords are prohibited from using software, algorithms, or data-sharing platforms to collect and analyze nonpublic competitor information to coordinate, recommend, or implement rental prices, lease terms, or occupancy levels among competing lessors.",
-        "conflict_flag": false
+        "explanation": "Landlords are prohibited from using software, algorithms, or data-sharing platforms to collect and analyze nonpublic competitor information to coordinate, recommend, or implement rental prices, lease terms, or occupancy levels among competing lessors. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       },
       {
         "team_rule_id": "r-0081",
@@ -71465,8 +71465,8 @@
       {
         "team_rule_id": "r-0104",
         "result": "not_yet_effective",
-        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices.",
-        "conflict_flag": false
+        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       }
     ],
     "A0473": [
@@ -71789,8 +71789,8 @@
       {
         "team_rule_id": "r-0050",
         "result": "applies",
-        "explanation": "Landlords are prohibited from using software, algorithms, or data-sharing platforms to collect and analyze nonpublic competitor information to coordinate, recommend, or implement rental prices, lease terms, or occupancy levels among competing lessors.",
-        "conflict_flag": false
+        "explanation": "Landlords are prohibited from using software, algorithms, or data-sharing platforms to collect and analyze nonpublic competitor information to coordinate, recommend, or implement rental prices, lease terms, or occupancy levels among competing lessors. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       },
       {
         "team_rule_id": "r-0081",
@@ -71933,8 +71933,8 @@
       {
         "team_rule_id": "r-0104",
         "result": "not_yet_effective",
-        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices.",
-        "conflict_flag": false
+        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       }
     ],
     "A0476": [
@@ -72811,8 +72811,8 @@
       {
         "team_rule_id": "r-0051",
         "result": "applies",
-        "explanation": "The ordinance bans the use of rent-setting algorithms, such as RealPage, that utilize nonpublic data to determine rental prices.",
-        "conflict_flag": false
+        "explanation": "The ordinance bans the use of rent-setting algorithms, such as RealPage, that utilize nonpublic data to determine rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       },
       {
         "team_rule_id": "r-0052",
@@ -72961,8 +72961,8 @@
       {
         "team_rule_id": "r-0104",
         "result": "not_yet_effective",
-        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices.",
-        "conflict_flag": false
+        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       }
     ],
     "A0483": [
@@ -73761,8 +73761,8 @@
       {
         "team_rule_id": "r-0050",
         "result": "applies",
-        "explanation": "Landlords are prohibited from using software, algorithms, or data-sharing platforms to collect and analyze nonpublic competitor information to coordinate, recommend, or implement rental prices, lease terms, or occupancy levels among competing lessors.",
-        "conflict_flag": false
+        "explanation": "Landlords are prohibited from using software, algorithms, or data-sharing platforms to collect and analyze nonpublic competitor information to coordinate, recommend, or implement rental prices, lease terms, or occupancy levels among competing lessors. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       },
       {
         "team_rule_id": "r-0081",
@@ -73905,8 +73905,8 @@
       {
         "team_rule_id": "r-0104",
         "result": "not_yet_effective",
-        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices.",
-        "conflict_flag": false
+        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       }
     ],
     "A0490": [
@@ -73955,8 +73955,8 @@
       {
         "team_rule_id": "r-0050",
         "result": "applies",
-        "explanation": "Landlords are prohibited from using software, algorithms, or data-sharing platforms to collect and analyze nonpublic competitor information to coordinate, recommend, or implement rental prices, lease terms, or occupancy levels among competing lessors.",
-        "conflict_flag": false
+        "explanation": "Landlords are prohibited from using software, algorithms, or data-sharing platforms to collect and analyze nonpublic competitor information to coordinate, recommend, or implement rental prices, lease terms, or occupancy levels among competing lessors. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       },
       {
         "team_rule_id": "r-0081",
@@ -74099,8 +74099,8 @@
       {
         "team_rule_id": "r-0104",
         "result": "not_yet_effective",
-        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices.",
-        "conflict_flag": false
+        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       }
     ],
     "A0491": [
@@ -74661,8 +74661,8 @@
       {
         "team_rule_id": "r-0051",
         "result": "applies",
-        "explanation": "The ordinance bans the use of rent-setting algorithms, such as RealPage, that utilize nonpublic data to determine rental prices.",
-        "conflict_flag": false
+        "explanation": "The ordinance bans the use of rent-setting algorithms, such as RealPage, that utilize nonpublic data to determine rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       },
       {
         "team_rule_id": "r-0052",
@@ -74811,8 +74811,8 @@
       {
         "team_rule_id": "r-0104",
         "result": "not_yet_effective",
-        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices.",
-        "conflict_flag": false
+        "explanation": "Not yet effective as of 2026-10-01. It is unlawful for rental property owners to use coordinators for rent setting, for coordinators to facilitate agreements that restrict competition, or for any person to perform a coordinating function that uses algorithms to process competitively sensitive information to set rental prices. Possible conflict flagged for human review: the NJ FAIR Act may preempt the local algorithmic-rent ordinance once it takes effect.",
+        "conflict_flag": true
       }
     ],
     "A0496": [
