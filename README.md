@@ -19,7 +19,7 @@ The model never decides whether a rule applies to an address — it only extract
 
 ```
 corpus  →  extraction (LLM)  →  quote verification  →  rules.json
- (54 docs)   extract.py           verify.py            (schema-valid)
+ (59 docs)   extract.py           verify.py            (schema-valid)
                                                            │
 sample_addresses.csv  →  geocoding  →  legal city/county  │
      (500 rows)            geo.py                          │
@@ -45,16 +45,17 @@ Everything lives under `starter_pack/`:
 | Path | What it is |
 |---|---|
 | `corpus/corpus_manifest.csv` | 87 source records: `doc_id`, jurisdiction, URL, source type, capture status |
-| `corpus/text/` | 54 captured plain-text documents, each headed with its source URL and retrieval date |
-| `corpus/links_only.csv` | 32 link-only sources (terms-review or capture-blocked) + 1 manual-fetch failure |
+| `corpus/text/` | 59 captured plain-text documents, each headed with its source URL and retrieval date |
+| `corpus/links_only.csv` | 29 link-only sources (terms-review or capture-blocked) + 1 manual-fetch failure |
 | `data/sample_addresses.csv` | 500 multifamily properties from public assessor data |
 | `schema/rule_record.schema.json` | Required JSON Schema for every rule record |
 | `dev/change_tests.json` | The five deterministic change tests T1–T5 |
 | `submission_templates/` | Example `rules.json`, `lookups.json`, `changes.json` |
 
-Of the 87 manifest records, **54 have captured text** (`status = ok`) and are the only
-documents the extractor reads. The remaining 33 are link-only or blocked and are left out
-by design — we do not bulk-scrape sources whose terms forbid it.
+The extractor reads the **59 captured text documents** under `corpus/text/` (87 manifest
+records in total; 57 are marked `status = ok`, 29 are link-only, and 1 is a manual-fetch
+failure). Link-only and blocked sources are left out by design — we do not bulk-scrape
+sources whose terms forbid it.
 
 The 500 sample addresses span nine cities: Los Angeles 80, San Francisco 80, San Diego 50,
 Berkeley 40, Jersey City 50, Hoboken 40, Newark 50, Boston 60, Cambridge 50. **The legal
@@ -64,7 +65,7 @@ counts, no owner names) are handled explicitly rather than guessed.
 
 ## 2. Extraction (`extract.py`)
 
-Automated, as the event requires — no hand-coded rules. For each of the 54 captured
+Automated, as the event requires — no hand-coded rules. For each of the 59 captured
 documents:
 
 1. Load the document text (large files are split into ~22k-char chunks with 1.5k overlap).
@@ -155,6 +156,13 @@ query date and **never guesses**:
 Result values: `applies`, `unknown`, `superseded`, `not_yet_effective`, `pending`
 (non-matching rules are left out).
 
+**Current build (all 8 smoke-test checks pass):** 123 verified rules extracted
+automatically from 59 documents; of the quotes checked, 118 matched the source exactly and
+8 were repaired to the source text (invented quotes rejected). 500/500 addresses have
+lookups. Change tests: T1 affects 250 CA addresses; T2 affects 90 (Hoboken and Jersey City
+bounded, Newark excluded); T3 covers 140 NJ addresses with 90 conflict flags; T4 covers
+110; T5 is empty.
+
 The Streamlit app (`app.py`) looks up a starter address or a typed address, shows the
 jurisdiction stack, an "as of" date, a pending-laws toggle, and for every rule the result,
 plain-language explanation, citation, source document, retrieval date, and the quoted
@@ -170,7 +178,7 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-Set `GEMINI_API_KEY` in `.env`, then run the automated extraction over the 54 captured
+Set `GEMINI_API_KEY` in `.env`, then run the automated extraction over the 59 captured
 documents:
 
 ```bash

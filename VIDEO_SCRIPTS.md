@@ -1,9 +1,9 @@
 # Video scripts — Rental Housing Law Navigator
 
-Three 1-minute scripts (~150 words each ≈ 60s at a natural pace). `{{DOUBLE_BRACES}}` are
-placeholders — fill them in from the finished build (`rules.json`,
-`verification_audit.json`, `lookups.json`, `changes.json`). Suggested commands to pull each
-number are listed under every script.
+Three 1-minute scripts (~150 words each ≈ 60s at a natural pace). Build numbers are filled
+in from the finished run (123 verified rules, 59 documents, 118 exact / 8 repaired quotes,
+500/500 lookups, T1=250 CA addresses). Commands to re-pull each number if the build changes
+are listed under every script.
 
 ---
 
@@ -31,9 +31,9 @@ nine cities across CA, NJ, MA; six rule categories.*
 
 ## 2. Demo (1 min)
 
-> Here's the app. I pick a starter address in Los Angeles. Behind it, we resolved the real
-> legal city — the mailing label said "Van Nuys," but that's inside the City of Los Angeles,
-> and the jurisdiction stack shows it.
+> Here's the app. I pick a starter address. Behind it, we resolved the real legal city — the
+> mailing label can say a neighborhood like "Dorchester," but that's legally the City of
+> Boston, and the jurisdiction stack shows the resolved city, not the label.
 >
 > As of October first, these are the rules that apply — rent-increase limits, just-cause
 > eviction — each with a result, a plain-language explanation, the citation, and the exact
@@ -43,13 +43,12 @@ nine cities across CA, NJ, MA; six rule categories.*
 > date, and that's not in the public data — so we don't guess.
 >
 > Now flip to a change case. California's AB 325: on December 31st it's not-yet-effective; on
-> January 2nd it applies — {{T1_AFTER_COUNT}} California addresses affected. The struck
-> Massachusetts ballot question? Affected set empty, exactly as it should be.
+> January 2nd it applies — 250 California addresses affected. The struck Massachusetts ballot
+> question? Affected set empty, exactly as it should be.
 
-*Numbers to confirm:*
-- `T1_AFTER_COUNT` — affected CA addresses in T1:
-  `jq '.T1.affected_address_ids | length' changes.json`
-- Optionally name a real starter `address_id` that returns `unknown` for the on-camera click.
+*Numbers (filled from the finished build):*
+- T1 affects **250** CA addresses. (Re-pull: `jq '.T1.affected_address_ids | length' changes.json`)
+- Suggested on-camera `unknown` click: a San Diego row such as `A0019` (no year built), per `DEMO_CHECKLIST.md`.
 
 ---
 
@@ -58,39 +57,43 @@ nine cities across CA, NJ, MA; six rule categories.*
 > The core design choice: the language model reads law, but it never decides. Extraction and
 > reasoning are completely separate.
 >
-> First, extraction. We feed {{DOC_COUNT}} captured documents to Gemini at temperature zero
-> and get back structured rule records — jurisdiction, category, status, effective date,
+> First, extraction. We feed the official corpus — 59 documents — to Gemini at temperature
+> zero and get back structured rule records: jurisdiction, category, status, effective date,
 > citation. Every record must carry a verbatim quote.
 >
-> Then the trust layer: we check each quote actually appears in its source. {{VERIFIED_EXACT}}
-> matched exactly, {{REPAIRED}} were snapped to the real text, and the rest were rejected —
-> so every quote in our output is a true slice of an official document. That left
-> {{RULE_COUNT}} verified rules.
+> Then the trust layer: we check each quote actually appears in its source. 118 matched the
+> source exactly, 8 we snapped to the real text, and the invented ones were rejected — so
+> every quote we show is a true slice of an official document. After de-duplication, that
+> left 123 verified rules.
 >
 > Reasoning is pure deterministic code: Census geocoding resolves the legal jurisdiction,
 > then the engine checks coverage, dates, supersession, and conflicts across all 500
 > addresses — defaulting to *unknown* when a fact is missing. Same inputs, same outputs,
 > every time. Fully auditable.
 
-*Numbers to confirm:*
-- `DOC_COUNT` — captured docs read (54 unless the run scope changed):
-  `ls starter_pack/corpus/text/*.txt | wc -l`
-- `VERIFIED_EXACT` / `REPAIRED` — verification verdicts:
-  `jq '[.[].verdict] | group_by(.) | map({(.[0]): length}) | add' verification_audit.json`
-- `RULE_COUNT` — verified rules written:
-  `jq '.rules | length' rules.json`
-- (Optional) `applies` vs `unknown` totals for a stronger closing line:
-  `jq '[.lookups[][].result] | group_by(.) | map({(.[0]): length}) | add' lookups.json`
+*Numbers (filled from the finished build):* 59 documents · 118 exact + 8 repaired quotes ·
+123 verified rules after de-duplication · all 500 addresses have lookups. Note: 118 + 8 is
+the count of quotes *checked* (before de-duplication and including rejects), which is a
+different denominator from the 123 final rules — the script wording avoids implying they add
+up. Re-pull commands:
+- `jq '.rules | length' rules.json` (verified rules)
+- `jq '[.[].verdict] | group_by(.) | map({(.[0]): length}) | add' verification_audit.json` (verdict split)
+- `jq '[.lookups[][].result] | group_by(.) | map({(.[0]): length}) | add' lookups.json` (applies vs unknown, optional closing stat)
 
 ---
 
-### Fill-in checklist (after the build finishes)
-| Placeholder | Source | Command |
+### Filled values (from the finished build)
+| Figure | Value | Re-pull command |
 |---|---|---|
-| `RULE_COUNT` | `rules.json` | `jq '.rules \| length' rules.json` |
-| `DOC_COUNT` | corpus | `ls starter_pack/corpus/text/*.txt \| wc -l` |
-| `VERIFIED_EXACT`, `REPAIRED` | `verification_audit.json` | see script 3 |
-| `T1_AFTER_COUNT` | `changes.json` | `jq '.T1.affected_address_ids \| length' changes.json` |
+| Verified rules | 123 | `jq '.rules \| length' rules.json` |
+| Documents | 59 | (reported by the extract run summary) |
+| Quotes: exact / repaired | 118 / 8 | `jq '[.[].verdict] \| group_by(.) \| map({(.[0]): length}) \| add' verification_audit.json` |
+| T1 affected (CA) | 250 | `jq '.T1.affected_address_ids \| length' changes.json` |
+| Lookups coverage | 500 / 500 | `jq '.lookups \| length' lookups.json` |
+
+Other change-test figures available if you want them in a longer cut: T2 affects 90
+(Hoboken/Jersey City bounded, Newark excluded), T3 covers 140 NJ addresses with 90 conflict
+flags, T4 covers 110, T5 is empty.
 
 Timing tip: each script is ~150 words. If you speak faster, add one concrete example (a real
 address or a specific law name); if slower, cut the parenthetical clauses first.

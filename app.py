@@ -29,6 +29,16 @@ def _read_addresses() -> list[dict]:
         return list(csv.DictReader(handle))
 
 
+def _read_retrieval_dates() -> dict[str, str]:
+    manifest = ROOT / "starter_pack" / "corpus" / "corpus_manifest.csv"
+    with manifest.open(newline="") as handle:
+        return {
+            row["doc_id"]: row["retrieved_at"]
+            for row in csv.DictReader(handle)
+            if row.get("doc_id") and row.get("retrieved_at")
+        }
+
+
 def _run() -> None:
     import streamlit as st
 
@@ -47,6 +57,7 @@ def _run() -> None:
         st.stop()
     rules = engine.load_rules(rules_path)
     addresses = _read_addresses()
+    retrieval_dates = _read_retrieval_dates()
     address_by_id = {row["address_id"]: row for row in addresses}
 
     with st.sidebar:
@@ -117,10 +128,11 @@ def _run() -> None:
             if item["result"] == "unknown":
                 st.info("Unknown: a required coverage fact is missing from the supplied data.")
             st.write(item["explanation"])
+            retrieved_at = item.get("retrieved_at") or retrieval_dates.get(item.get("source_doc_id"))
             st.caption(
                 f"Citation: {item.get('citation') or 'not supplied'} · "
                 f"Source document: {item.get('source_doc_id') or 'not supplied'} · "
-                f"Retrieved: {item.get('retrieved_at') or 'not supplied'}"
+                f"Retrieved: {retrieved_at or 'not supplied'}"
             )
             with st.expander("Quoted source text"):
                 st.write(item.get("quoted_span") or "No quoted span was supplied.")

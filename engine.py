@@ -14,6 +14,7 @@ from typing import Any
 
 
 RESULTS = {"applies", "unknown", "superseded", "not_yet_effective", "pending"}
+LOCAL_OVERRIDE_CATEGORIES = {"rent_increase_limits", "just_cause_eviction"}
 
 
 def load_rules(path: str | Path) -> list[dict[str, Any]]:
@@ -64,6 +65,25 @@ def _jurisdiction_matches(rule: dict[str, Any], address: dict[str, Any]) -> bool
         city, rule_state = [part.strip() for part in jurisdiction.split(",", 1)]
         return state == rule_state.upper() and legal_city == city.casefold()
     return legal_city == jurisdiction.casefold()
+
+
+def _rule_state(rule: dict[str, Any]) -> str:
+    jurisdiction = str(rule.get("jurisdiction", "")).strip()
+    if re.fullmatch(r"[A-Za-z]{2}", jurisdiction):
+        return jurisdiction.upper()
+    if "," in jurisdiction:
+        return jurisdiction.rsplit(",", 1)[1].strip().upper()
+    return ""
+
+
+def _is_city_rule(rule: dict[str, Any]) -> bool:
+    return str(rule.get("level", "")).casefold() == "city" or "," in str(rule.get("jurisdiction", ""))
+
+
+def _is_state_rule(rule: dict[str, Any]) -> bool:
+    return str(rule.get("level", "")).casefold() == "state" or bool(
+        re.fullmatch(r"[A-Za-z]{2}", str(rule.get("jurisdiction", "")).strip())
+    )
 
 
 def _compare(value: float | None, operator: str, target: float) -> bool | None:
@@ -240,6 +260,24 @@ def evaluate_rule(
     }
 
 
+_STOP = {"the", "a", "an", "of", "for", "to", "and", "or", "in", "on", "by", "any", "all", "must", "may", "shall", "not", "is", "are", "be", "that", "with", "as", "at", "from"}
+
+
+def _tokens(rule: dict[str, Any]) -> set[str]:
+    text = f"{rule.get('title', '')} {rule.get('requirement', '')}".casefold()
+    return {word for word in re.findall(r"[a-z]{4,}", text) if word not in _STOP}
+
+
+def _best_local(state_rule: dict[str, Any], pairs: list) -> dict[str, Any]:
+    """Pick the local rule most similar in wording to the state rule it overrides."""
+    state_tokens = _tokens(state_rule)
+    return sorted(
+        pairs,
+        key=lambda pair: (-len(state_tokens & _tokens(pair[0])), str(pair[0].get("title", "")), str(pair[0].get("team_rule_id", ""))),
+    )[0][0]
+
+
+
 def evaluate_address(
     rules: list[dict[str, Any]],
     address: dict[str, Any],
@@ -262,6 +300,46 @@ def evaluate_address(
             if overridden and overridden["result"] == "applies":
                 overridden["result"] = "superseded"
                 overridden["explanation"] = f"Superseded by {rule_id}. {overridden['explanation']}"
+
+    # The starter data does not require the extractor to encode every
+    # local-versus-state relationship in `overrides`. For rent increases and
+    # just-cause eviction, an applicable city rule governs the same-category
+    # state rule for this address. An unknown city rule must not suppress the
+    # state rule; it only adds a visible caution.
+    rules_by_id = {rule.get("team_rule_id"): rule for rule in rules}
+    for state_rule in rules:
+        state_id = state_rule.get("team_rule_id")
+        state_result = result_by_id.get(state_id)
+        if not state_result or not _is_state_rule(state_rule):
+            continue
+        category = state_rule.get("category")
+        if category not in LOCAL_OVERRIDE_CATEGORIES:
+            continue
+        same_state_locals = [
+            (rules_by_id.get(item["team_rule_id"]), item)
+            for item in results
+            if rules_by_id.get(item["team_rule_id"])
+            and _is_city_rule(rules_by_id[item["team_rule_id"]])
+            and _rule_state(rules_by_id[item["team_rule_id"]]) == _rule_state(state_rule)
+            and rules_by_id[item["team_rule_id"]].get("category") == category
+        ]
+        applicable_locals = [pair for pair in same_state_locals if pair[1]["result"] == "applies"]
+        unknown_locals = [pair for pair in same_state_locals if pair[1]["result"] == "unknown"]
+        if applicable_locals and state_result["result"] == "applies":
+            local_rule = _best_local(state_rule, applicable_locals)
+            local_title = local_rule.get("title") or local_rule.get("team_rule_id")
+            state_result["result"] = "superseded"
+            state_result["explanation"] = (
+                f"A stricter local rule ({local_title}) governs here. "
+                f"{state_result['explanation']}"
+            )
+        elif unknown_locals and state_result["result"] == "applies":
+            local_rule = _best_local(state_rule, unknown_locals)
+            local_title = local_rule.get("title") or local_rule.get("team_rule_id")
+            state_result["explanation"] = (
+                f"A local rule ({local_title}) may override it because local coverage is unknown. "
+                f"{state_result['explanation']}"
+            )
     return results
 
 

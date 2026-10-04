@@ -10,7 +10,7 @@ structured, quote-backed records.
 ```
 ┌────────────┐   ┌─────────────┐   ┌──────────────┐   ┌───────────┐
 │ 1. Corpus  │ → │ 2. Extract  │ → │ 3. Verify    │ → │ rules.json│
-│ 54 docs    │   │ LLM → JSON  │   │ quote ∈ src? │   │ schema ✓  │
+│ 59 docs    │   │ LLM → JSON  │   │ quote ∈ src? │   │ schema ✓  │
 └────────────┘   └─────────────┘   └──────────────┘   └─────┬─────┘
 ┌────────────┐   ┌─────────────┐                            │
 │ 500 addrs  │ → │ 4. Geocode  │ ──── legal city/county ────┤
@@ -27,10 +27,10 @@ structured, quote-backed records.
 ```
 
 ### 1. Corpus — the supplied input
-87 manifest records; **54 captured text documents** (`status = ok`) are the only inputs
-read. 32 are link-only (terms-review / capture-blocked) and 1 is a manual-fetch failure —
-excluded by design, no bulk scraping. 500 sample addresses across nine CA/NJ/MA cities;
-legal jurisdiction is deliberately *not* supplied.
+87 manifest records; **59 captured text documents** are the inputs the extractor reads (57
+are marked `status = ok`). 29 are link-only (terms-review / capture-blocked) and 1 is a
+manual-fetch failure — excluded by design, no bulk scraping. 500 sample addresses across
+nine CA/NJ/MA cities; legal jurisdiction is deliberately *not* supplied.
 
 ### 2. Extraction (`extract.py`) — prose → structured rules
 Each document is chunked (~22k chars, 1.5k overlap) and sent to Gemini
