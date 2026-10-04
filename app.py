@@ -76,7 +76,19 @@ def _run() -> None:
         mode = st.radio("Address source", ["Starter address", "Enter an address"], index=0)
         as_of = st.date_input("As of date", value=date(2026, 10, 1))
         include_pending = st.toggle("Show pending laws", value=True)
-        category = st.selectbox("Topic", ["All topics"] + sorted({str(rule.get("category", "")) for rule in rules}))
+        topic_labels = {
+            "algorithmic_rent_setting": "Algorithmic rent setting (e.g. RealPage)",
+            "application_screening_fees": "Application and screening fees",
+            "just_cause_eviction": "Eviction and just cause",
+            "rent_increase_limits": "Rent increases and rent control",
+            "screening_restrictions": "Tenant screening (criminal history, income, credit)",
+            "security_deposits": "Security deposits",
+        }
+        category = st.selectbox(
+            "Topic",
+            ["All topics"] + sorted({str(rule.get("category", "")) for rule in rules}),
+            format_func=lambda value: topic_labels.get(value, value.replace("_", " ").capitalize()),
+        )
         st.caption("Unknown means the supplied data is insufficient to decide coverage; the app does not guess.")
 
     if mode == "Starter address":
