@@ -61,7 +61,7 @@ def _run() -> None:
     if _optional_gemini_key(st):
         st.sidebar.caption("Optional Gemini key detected in Streamlit secrets.")
     else:
-        st.sidebar.caption("Gemini key not configured; deterministic cited lookup remains available.")
+        st.sidebar.caption("Deterministic cited lookup. No API key required.")
 
     rules_path = ROOT / "rules.json"
     if not rules_path.exists():
@@ -172,7 +172,15 @@ def _run() -> None:
         st.info("No supplied rule matched this jurisdiction and topic on the selected date.")
         return
 
+    counts: dict[str, int] = {}
     for item in results:
+        counts[item["result"]] = counts.get(item["result"], 0) + 1
+    order = [("applies", "Applies"), ("superseded", "Superseded"), ("unknown", "Unknown"),
+             ("not_yet_effective", "Not yet effective"), ("pending", "Pending")]
+    summary = " · ".join(f"**{label}: {counts[key]}**" for key, label in order if counts.get(key))
+    st.markdown(f"{summary}  \n:grey[{len(results)} rules shown. Expand a card to read the quoted source text.]")
+
+    for position, item in enumerate(results):
         status = item["result"].replace("_", " ").title()
         with st.container(border=True):
             st.subheader(item.get("title") or item["team_rule_id"])
@@ -188,7 +196,7 @@ def _run() -> None:
                 f"Source document: {item.get('source_doc_id') or 'not supplied'} · "
                 f"Retrieved: {retrieved_at or 'not supplied'}"
             )
-            with st.expander("Quoted source text"):
+            with st.expander("Quoted source text", expanded=(position == 0)):
                 st.write(item.get("quoted_span") or "No quoted span was supplied.")
                 if item.get("source_url"):
                     st.markdown(f"[Open source]({item['source_url']})")
