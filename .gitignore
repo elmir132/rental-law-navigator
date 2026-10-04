@@ -1,0 +1,15 @@
+.env
+.venv/
+__pycache__/
+*.py[cod]
+geo_cache.json
+.streamlit/secrets.toml
+
+# third-party pages fetched separately (not redistributed)
+starter_pack/corpus/text/D032.txt
+starter_pack/corpus/text/D033.txt
+starter_pack/corpus/text/D034.txt
+starter_pack/corpus/text/D035.txt
+starter_pack/corpus/text/D059.txt
+extract_run*.log
+rules.prev.json
