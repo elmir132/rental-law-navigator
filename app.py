@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import csv
+import html
 import os
 from datetime import date
 from pathlib import Path
@@ -131,6 +132,34 @@ def _run() -> None:
                 "geocode_source": "offline_city_fallback",
             }
 
+    street_line = html.escape(str(address.get("street_address") or "Address not entered"))
+    place_line = html.escape(
+        " ".join(
+            part
+            for part in (
+                f"{address.get('postal_city') or ''},".strip(","),
+                str(address.get("state") or ""),
+                str(address.get("zip") or ""),
+            )
+            if part
+        )
+    )
+    facts = []
+    if address.get("year_built"):
+        facts.append(f"built {html.escape(str(address['year_built']))}")
+    if address.get("units"):
+        facts.append(f"{html.escape(str(address['units']))} units")
+    facts_line = " · ".join(facts) if facts else "year built and unit count not in the supplied data"
+    st.markdown(
+        f"""
+        <div style="padding:14px 18px;border-radius:10px;background:#e8f0fe;border-left:6px solid #1a56db;margin:10px 0 6px 0;">
+          <div style="font-size:0.75rem;letter-spacing:0.06em;color:#3b4a66;font-weight:600;">SELECTED ADDRESS</div>
+          <div style="font-size:1.5rem;font-weight:700;color:#0b1b3a;line-height:1.25;">{street_line}</div>
+          <div style="font-size:1rem;color:#1f2d4d;">{place_line} · {facts_line}</div>
+        </div>
+        """,
+        unsafe_allow_html=True,
+    )
     st.write(
         f"**Jurisdiction stack:** {address.get('state', 'unknown')}"
         f" → {address.get('legal_city') or 'unknown legal city'}"
