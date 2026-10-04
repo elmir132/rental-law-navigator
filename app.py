@@ -202,7 +202,7 @@ def _run() -> None:
     )
     results = shown
     if not results:
-        st.info("No rules of that type for this address.")
+        st.info("No rules of that type in this topic. Set Topic to All topics to see every rule of that type." if category != "All topics" else "No rules of that type for this address.")
         return
 
     for position, item in enumerate(results):
