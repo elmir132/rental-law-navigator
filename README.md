@@ -3,6 +3,10 @@
 Address-level housing-law lookup for the MIT AI Hackathon / RealPage discussion-draft
 challenge (public data only, October 2026).
 
+![The app filtering one Los Angeles address to its superseded rules, then to a pending motion, each with its citation and quoted source text](docs/demo.gif)
+
+*Recorded from the app running locally with no API key. [Live demo](https://rental-law-navigator.streamlit.app/).*
+
 **The question it answers:** for any apartment address in the sample, *which housing
 rules apply here on the query date, and how do the supplied law-change cases affect that
 answer?* Every answer carries its citation, source document, retrieval date, and a
